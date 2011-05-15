@@ -18,6 +18,11 @@ Prerequisites:
   * a recent version of ncurses
   * ncurses-ruby <http://ncurses-ruby.berlios.de/>
 
+Installing ruby-ncurses on Fedora 14 as root:
+  # yum install ncurses*
+  # yum install ruby-ncurses
+  # gem install ncurses
+
 Optionally:
   * FIGlet (if you want to have huge text printed)
 
