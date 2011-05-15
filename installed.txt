@@ -1,0 +1,8 @@
+mkdir -p /usr/local/share/doc/tpp
+install -m644 DESIGN CHANGES COPYING README THANKS /THANKSusr/local/share/doc/tpp
+install -m644 doc/tpp.1 /usr/local/share/man/manan1
+install tpp.rb /usr/local/bin/tpp  
+mkdir -p /usr/local/share/doc/tpp/contrib
+mkdir -p /usr/local/share/doc/tpp/examples
+install -m644 examples/* /usr/local/share/doc/tpp/examples/
+install -m644 contrib/* /usr/local/share/doc/tpp/contrib/
